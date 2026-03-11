@@ -7,7 +7,7 @@
     <body>
         <h1>Week 7</h1>
         <h2>In Class Practice Session</h2>
-        <h2>Exercise 1: Add More Session Variables</h2>
+        <h2>Exercise 3: Destroy the Session</h2>
         
         <?php
         session_start(); // Start the session
