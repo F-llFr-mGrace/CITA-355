@@ -7,14 +7,13 @@
     <body>
         <h1>Week 7</h1>
         <h2>In Class Practice Session</h2>
-        <h2>Exercise 2: Modify and Add New Session Variables</h2>
+        <h2>Exercise 1: Add More Session Variables</h2>
         
         <?php
         session_start(); // Start the session
-        // Check if session variables are set
-        foreach ($_SESSION as $key => $value) {
-            echo ("$key: $value<br>");
-        }
+        session_unset(); // Unset all session variables
+        session_destroy(); // Destroy the session
+        echo "Session destroyed.";
         ?>
     </body>
 </html>
